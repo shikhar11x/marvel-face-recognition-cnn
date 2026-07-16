@@ -70,7 +70,6 @@ Softmax (5 Classes)
 | Test Accuracy | 79.07% |
 | Test Loss | 0.6675 |
 
-> Replace the above values with your final results.
 
 ## Project Structure
 
