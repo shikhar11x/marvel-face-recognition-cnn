@@ -41,8 +41,8 @@ MobileNetV2 (ImageNet weights, frozen initially) -> GlobalAveragePooling2D -> Ba
 
 | Metric | Value |
 |---|---|
-| Test Accuracy | XX.XX% |
-| Test Loss | X.XXXX |
+| Test Accuracy | 79.07% |
+| Test Loss | 0.6675 |
 
 Replace the above with your actual run results, and include your confusion matrix and accuracy/loss plots here as images.
 
