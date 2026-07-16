@@ -41,8 +41,8 @@ MobileNetV2 (ImageNet weights, frozen initially) -> GlobalAveragePooling2D -> Ba
 
 | Metric | Value |
 |---|---|
-| Test Accuracy | 79.07% |
-| Test Loss | 0.6675 |
+| Test Accuracy | XX.XX% |
+| Test Loss | X.XXXX |
 
 Replace the above with your actual run results, and include your confusion matrix and accuracy/loss plots here as images.
 
@@ -62,3 +62,24 @@ Replace the above with your actual run results, and include your confusion matri
 4. Use the prediction cell to upload a new face image and view the predicted character and confidence
 
 ## Project Structure
+avengers-face-recognition/
+├── notebook.ipynb
+├── models/
+│   ├── avengers_face_recognition_final.keras
+│   ├── avengers_face_recognition_final.h5
+│   └── class_indices.json
+├── README.md
+└── requirements.txt
+
+## Future Improvements
+
+- Expand dataset size per class
+- Add face detection preprocessing for unconstrained input images
+- Experiment with ensemble of multiple backbones
+- Deploy as a web app (Streamlit/Flask) for live predictions
+
+## Author
+
+Shikhar Bajpai
+GitHub: shikhar11x
+LinkedIn: shikharbajpai1
